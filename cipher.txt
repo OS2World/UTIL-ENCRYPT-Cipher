@@ -1,0 +1,27 @@
+   CIPHER is fairly simple to use yet provides excellent file security.
+It enrypts a file, making it unreadable junk until you decipher
+the file using the correct key. CIPHER requires three parameters...
+the cipher key, the input file and the output file. The key can be
+any series of characters or numbers while the input file must be
+a valid file name. (The output file will be created and so it doesn't
+to be an valid existing file name.)
+
+        As a simple demonstration, decipher the CIPHER.CPH file to
+ a file name TEST.TXT. Type this command....
+                "CIPHER 1234A CIPHER.CPH TEST.TXT"
+        This will produce a valid ASCII text file named TEST.TXT.
+
+        Enjoy!
+
+
+        CIPHER was written by David Stafford and originally appeared
+        in the July 1993 issue of Computer Shopper. It was changed
+        slightly and compiled for OS/2 using Borland C++ for OS/2
+        by David Eagen on July 11, 1993.
+
+
+
+
+
+
+
